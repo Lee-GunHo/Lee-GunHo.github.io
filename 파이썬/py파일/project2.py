@@ -40,7 +40,7 @@ class Refrigerator(object):
 
 def main():
     refrigerator = Refrigerator(1100000, 832, "white", 2)
-    print(refrigerator.price, refrigerator.volume, refrigerator.color, refrigerator.energyce)
+    print("가격 :",refrigerator.price,"입니다","용량 :", refrigerator.volume,"입니다.","색깔 :", refrigerator.color,"입니다.","에너지 효율등급 :", refrigerator.energyce,"입니다.")
 
 if __name__ == "__main__":
     main()
