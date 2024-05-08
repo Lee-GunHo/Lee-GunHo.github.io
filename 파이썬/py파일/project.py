@@ -33,7 +33,7 @@ def main():
     refrigerator.set_volume(832)
     refrigerator.set_color("white")
     refrigerator.set_energyce(2)
-    print(refrigerator.get_price(), refrigerator.get_volume(), refrigerator.get_color() , refrigerator.get_energyce())
+    print("가격 :", refrigerator.get_price() ,"원 입니다.", "들어가는 용량 :",refrigerator.get_volume(),"L 입니다.", "색깔 :",refrigerator.get_color() ,"입니다.","에너지 효율등급 :",refrigerator.get_energyce(),"입니다.")
 
     
 if __name__ == "__main__":
